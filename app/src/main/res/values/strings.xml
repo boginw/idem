@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Idem</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_hint">Type number, name or location</string>
+    <string name="person_view">Name of person</string>
+    <string name="phoneNumbers">Phone Numbers</string>
+    <string name="adresses">Addresses</string>
+    <string name="action_about">About this app</string>
+    <string name="no_internet">No internet... Can\'t search</string>
+    <string name="no_results">Sorry... We found nothing...</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="permission_alert">You\'re using Android M or newer.\n
+        In this version, we are required to ask you for permissions that we may require.
+        In this case, we require the ability to draw over apps, and the phone telephone state.
+        That is if you wanna use the overlay function. If not, you can just turn it off in Settings.
+    </string>
+
+
+    <string name="pref_call_over_lay">Overlay caller information</string>
+    <string name="pref_call_over_lay_summary">See the caller name if your receive a call from an unknown number</string>
+    <string name="pref_instant_call">Call phone number on click</string>
+    <string name="pref_instant_call_summary">When clicking on a phone number, it dials right a way</string>
+
+    <string name="pref_update_setting">Call Settings</string>
+    <string name="pref_lang_settings">Language Settings</string>
+    <string name="title_list_language">Language</string>
+    <string name="summary_list_language">Change Language in app</string>
+    <string name="dialog_list_language">Choose language. Restart is required.</string>
+</resources>

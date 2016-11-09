@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idem</string>
+    <string name="action_settings">Stillingar</string>
+    <string name="hello_world">Hey Verð</string>
+    <string name="person_view">Navn á persóni</string>
+    <string name="phoneNumbers">Telefon Nummør</string>
+    <string name="adresses">Búðstaðir</string>
+    <string name="search_hint">Skriva nummar, navn ella stað</string>
+    <string name="action_about">Um farriti</string>
+    <string name="no_internet">Einki net.. Fái ikki leita</string>
+    <string name="no_results">Nå... Einki var funnið..</string>
+    <string name="save_contact">Goym persón</string>
+    <string name="title_activity_settings">Stillingar</string>
+    <string name="permission_alert">You\'re using Android M or newer.\n
+        In this version, we are required to ask you for permissions that we may require.
+        In this case, we require the ability to draw over apps, and the phone telephone state.
+        That is if you wanna use the overlay function. If not, you can just turn it off in Settings.
+    </string>
+
+    <string name="pref_call_over_lay">Legg lýsing av ringjara yvir alt</string>
+    <string name="pref_call_over_lay_summary">Vís ringjarans navn um hann ringir</string>
+    <string name="pref_instant_call">Ring til telefon nummar, við einum trýstið</string>
+    <string name="pref_instant_call_summary">Tá ið tú trýstur á eitt telefon nummar, so ringir tað beinanvegin</string>
+
+    <string name="pref_update_setting">Kall stillingar</string>
+    <string name="title_list_language">Mál</string>
+    <string name="pref_lang_settings">Mál stillingar</string>
+    <string name="summary_list_language">Broyt málið í farritinum</string>
+    <string name="dialog_list_language">Vel mál. Sløkk og tendra appina aftur, eftir val.</string>
+</resources>

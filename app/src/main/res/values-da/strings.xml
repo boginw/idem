@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idem</string>
+    <string name="action_settings">Indstillinger</string>
+    <string name="hello_world">Hej verden</string>
+    <string name="person_view">Navn på person</string>
+    <string name="phoneNumbers">Telefon nummer</string>
+    <string name="adresses">Addresser</string>
+    <string name="search_hint">Skriv nummer, navn eller sted</string>
+    <string name="action_about">Om denne app</string>
+    <string name="no_internet">Intet internet..</string>
+    <string name="no_results">Nå... Der blev ikke fundet noget..</string>
+    <string name="save_contact">Gem person</string>
+    <string name="title_activity_settings">Indstillinger</string>
+    <string name="permission_alert">You\'re using Android M or newer.\n
+        In this version, we are required to ask you for permissions that we may require.
+        In this case, we require the ability to draw over apps, and the phone telephone state.
+        That is if you wanna use the overlay function. If not, you can just turn it off in Settings.
+    </string>
+
+    <string name="pref_call_over_lay">Overlay information om kalderen</string>
+    <string name="pref_call_over_lay_summary">Vis opkalderens navn hvis der ringer</string>
+    <string name="pref_instant_call">Ring til telefon med et klikk</string>
+    <string name="pref_instant_call_summary">Når du trykker på et telefon nummer ringer det straks</string>
+
+    <string name="pref_update_setting">Opkalds indstillinger</string>
+    <string name="title_list_language">Sprog</string>
+    <string name="summary_list_language">Ændr sprog i appen</string>
+    <string name="dialog_list_language">Vælg sprog. Restart efter valg.</string>
+    <string name="pref_lang_settings">Sprog Indstillinger</string>
+</resources>

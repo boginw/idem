@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_language">
+        <item>Engelsk</item>
+        <item>Dansk</item>
+        <item>Færøsk</item>
+    </string-array>
+    <string-array name="entryvalues_list_preference">
+        <item>en</item>
+        <item>da</item>
+        <item>fo</item>
+    </string-array>
+</resources>

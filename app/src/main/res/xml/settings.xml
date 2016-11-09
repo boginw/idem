@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <PreferenceCategory android:title="@string/pref_update_setting" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefOverlay"
+            android:summary="@string/pref_call_over_lay_summary"
+            android:title="@string/pref_call_over_lay" >
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefSaveInstant"
+            android:summary="@string/pref_instant_call_summary"
+            android:title="@string/pref_instant_call" >
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_lang_settings" >
+        <ListPreference
+            android:key="list_language"
+            android:title="@string/title_list_language"
+            android:summary="@string/summary_list_language"
+            android:entries="@array/entries_list_language"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:dialogTitle="@string/dialog_list_language" />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

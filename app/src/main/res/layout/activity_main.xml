@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="0dp" tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:id="@+id/searchBox"
+        android:padding="0dp">
+
+        <EditText
+            android:background="@drawable/testing_gradient"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:id="@+id/main_search"
+            android:hint="@string/search_hint"
+            android:paddingLeft="10dp"
+            android:layout_height="60dp"
+            android:singleLine="true"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:id="@+id/calc_clear_txt_Prise"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/cross"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/searchBox"
+        android:id="@+id/layoutBox"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/no_results"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:id="@+id/no_find"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp" />
+
+        <ListView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_list"
+            android:visibility="gone"
+            android:background="@drawable/list_selector"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/progressBar1"
+        android:text="Ment og Forrita av Aivot.fo"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@+id/layoutBox"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

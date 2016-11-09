@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:padding="5dip" >
+
+<TextView
+    android:id="@+id/title"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Category"
+    android:textColor="#040404"
+    android:textSize="15dip"
+    android:layout_toLeftOf="@+id/phoneLayout"
+    android:maxLines="1"
+    android:scrollHorizontally="true"
+    android:ellipsize="end"
+    android:typeface="sans" />
+
+<TextView
+    android:id="@+id/subtitle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/title"
+    android:layout_marginTop="1dip"
+    android:text="Text here."
+    android:textColor="#343434"
+    android:textSize="10dip" />
+
+<RelativeLayout
+    android:layout_toLeftOf="@+id/imageView"
+    android:layout_width="100dp"
+    android:id="@+id/phoneLayout"
+    android:layout_height="35dp">
+        <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123456"
+        android:textColor="#000"
+        android:textSize="12dip"
+            android:layout_marginRight="0dp"
+        android:textStyle="bold"
+
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="3dp"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_toLeftOf="@+id/imageView2"
+            android:layout_toStartOf="@+id/imageView2" />
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/phone"
+        android:id="@+id/imageView2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp" />
+</RelativeLayout>
+
+<ImageView
+    android:layout_width="10dp"
+    android:layout_height="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:src="@drawable/arrow"
+    android:id="@+id/imageView" />
+
+</RelativeLayout>
